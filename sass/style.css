@@ -541,7 +541,7 @@ input {
 .deales__of__day {
   margin-block: 50px;
 }
-.deales__of__day .deals__of__day__title h2 {
+.deales__of__day.deals__of__day__title h2 {
   text-align: center;
   font-size: 30px;
   color: #253d4e;
