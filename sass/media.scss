@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+  hr {
+    display: none;
+  }
   .nav__top {
     display: none;
   }
@@ -7,7 +10,12 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 25px 0;
+      padding: 10px 0;
+      .nav__btn {
+        & .btn__menu {
+          display: flex;
+        }
+      }
       & .logo a {
         display: flex;
         align-items: center;
@@ -100,58 +108,28 @@
   }
   .nav__bottom {
     display: none;
-    padding: 5px 0;
-    position: relative;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    z-index: 999999;
-    & a {
-      font-size: 12px;
-      color: white;
-      transition: all 0.3s ease-in-out;
-    }
-    & span {
-      color: white;
-    }
-    & .dropdown-content {
-      background-color: #3bb77e;
-      font-size: 12px;
-      &.flex-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        border: 1px solid black;
-        .flex-item {
-          flex-basis: calc(50% - 10px);
-          background-color: white;
-          padding: 10px;
-          text-align: center;
-          margin-bottom: 10px;
-        }
-      }
-    }
-    & .dropdown-content p a:hover {
-      color: #7e7e7e;
-    }
+    width: max-content;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 55%;
+    float: right;
+    border-radius: 5px;
     & .bottom__content ul {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
+      flex-direction: column;
+      justify-content: left;
+      align-items: flex-start;
       font-size: 12px;
+      line-height: 20px;
       & .categores {
-        background-color: #fdc040;
         padding: 5px;
-        border-radius: 5px;
+        margin-bottom: 10px;
       }
       & .hot__deals a {
-        display: flex;
-        align-items: center;
         gap: 2.5px;
-        font-size: 12px;
         i {
-          font-size: 8px;
+          font-size: 14px;
         }
       }
       & .phone {
@@ -159,27 +137,29 @@
         gap: 2.5px;
         align-items: center;
         font-size: 12px;
+        margin-top: 15px;
         & .phone__icon {
-          font-size: 18px;
+          font-size: 14px;
         }
         & .phone__text {
-          line-height: 10px;
-          font-size: 12px;
+          line-height: 7px;
+          font-size: 10px;
           h2 {
             margin: 0;
           }
           p {
-            font-size: 10px;
+            font-size: 8px;
           }
         }
       }
     }
   }
   .header__heading {
+    padding: 10px;
     & .heading__content {
       h1 {
         width: 100%;
-        font-size: 50px;
+        font-size: 46px;
       }
       p {
         font-size: 14px;

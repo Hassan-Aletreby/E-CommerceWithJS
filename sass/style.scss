@@ -182,6 +182,15 @@ input {
     & .vendor:hover {
       transform: translateY(-10%);
     }
+    .nav__btn {
+      & .btn__menu {
+        display: none;
+        border: none;
+        font-size: 18px;
+        color: #3bb77e;
+        background-color: transparent;
+      }
+    }
     & .nav__icons {
       margin-left: 20px;
       display: flex;
@@ -288,6 +297,10 @@ input {
     }
   }
 }
+.disapper {
+  display: flex !important;
+}
+
 .header__heading {
   background-image: url(../img/home-6-bg-min-scaled.jpg);
   background-repeat: no-repeat;
@@ -351,7 +364,6 @@ input {
     }
   }
 }
-
 .trending__content {
   margin-block: 50px;
   h2 {

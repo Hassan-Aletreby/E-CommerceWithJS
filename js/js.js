@@ -1,5 +1,5 @@
 var btnMenu = document.querySelector(".btn__menu");
-var apper = document.querySelector(".apper");
+var nav = document.querySelector(".nav__bottom");
 btnMenu.onclick = function () {
-  apper.classList.toggle("disapper");
+  nav.classList.toggle("disapper");
 }

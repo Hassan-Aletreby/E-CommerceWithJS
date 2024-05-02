@@ -190,6 +190,13 @@ input {
 .nav__middle .middle__content .vendor:hover {
   transform: translateY(-10%);
 }
+.nav__middle .middle__content .nav__btn .btn__menu {
+  display: none;
+  border: none;
+  font-size: 18px;
+  color: #3bb77e;
+  background-color: transparent;
+}
 .nav__middle .middle__content .nav__icons {
   margin-left: 20px;
   display: flex;
@@ -294,6 +301,10 @@ input {
 }
 .nav__bottom .bottom__content ul .phone .phone__text p {
   font-size: 12px;
+}
+
+.disapper {
+  display: flex !important;
 }
 
 .header__heading {
