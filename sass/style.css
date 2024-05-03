@@ -424,7 +424,7 @@ input {
 }
 .header__heading .heading__content ul li a {
   display: block;
-  color: var(--black-color);
+  color: var(--heading-color);
   transition: all 0.3s ease-in-out;
 }
 .header__heading .heading__content ul li a:hover {
