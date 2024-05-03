@@ -206,139 +206,136 @@
   .productes .grid-container .grid-item .item__tittle h2 {
     font-size: 18px;
   }
+  .subscribe__mail .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
+  .subscribe__mail .grid-item {
+    padding: 10px;
+    margin-block: 10px;
+  }
+  .subscribe__mail .grid-item .subscribe__content h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .subscribe__mail .grid-item .subscribe__content p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .subscribe__mail .grid-item .subscribe__content span {
+    font-size: 12px;
+  }
+  .subscribe__mail .grid-item .subscribe__content input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  .subscribe__mail .grid-item .subscribe__content button {
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .subscribe__mail .grid-item .subscribe__content .content__img {
+    width: 40%;
+    right: 10px;
+  }
+  .footer__links {
+    margin-block: 50px;
+  }
+  .footer__links .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .footer__links .grid-container .grid-item {
+    font-size: 22px;
+  }
+  .footer__links .grid-container .grid-item h4 {
+    font-size: 18px;
+  }
+  .footer__links .grid-container .grid-item ul {
+    line-height: 20px;
+  }
+  .footer__links .grid-container .grid-item ul li a {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .footer__links .logo {
+    grid-column: 1/span 2;
+    line-height: 22px;
+  }
+  .footer__links .logo i {
+    font-size: 14px;
+  }
+  .footer__links .logo p {
+    font-size: 12px;
+  }
+  .footer__links .logo a p {
+    font-size: 10px;
+  }
+  .footer__links .app {
+    grid-column: 1/span 2;
+    text-align: center;
+    line-height: 16px;
+  }
+  .footer__links .app p {
+    font-size: 12px;
+  }
+  .footer__links .app .store a img {
+    height: 20px;
+    width: 75px;
+  }
+  .footer__links .app span {
+    font-size: 12px;
+  }
+  .footer__numbers {
+    padding-block: 10px;
+  }
+  .footer__numbers .numbers__content {
+    display: block;
+    text-align: center;
+    line-height: 25px;
+  }
+  .footer__numbers .numbers__content .footer__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .footer__numbers .numbers__content .footer__number {
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10px;
+  }
+  .footer__numbers .numbers__content .footer__number .num {
+    gap: 5px;
+  }
+  .footer__numbers .numbers__content .footer__number .num i {
+    font-size: 12px;
+  }
+  .footer__numbers .numbers__content .footer__number .num p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .footer__numbers .numbers__content .footer__number .num p span {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .footer__numbers .numbers__content .footer__follow {
+    font-size: 12px;
+    line-height: 5px;
+  }
+  .footer__numbers .numbers__content .footer__follow p i {
+    font-size: 12px;
+    margin-inline: 2px;
+  }
+  .footer__numbers .numbers__content .footer__follow span {
+    font-size: 10px;
+  }
 }
-.subscribe__mail .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-}
-.subscribe__mail .grid-item {
-  padding: 10px;
-  margin-block: 10px;
-}
-.subscribe__mail .grid-item .subscribe__content h2 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  width: 100%;
-}
-.subscribe__mail .grid-item .subscribe__content p {
-  font-size: 12px;
-  margin-bottom: 10px;
-}
-.subscribe__mail .grid-item .subscribe__content span {
-  font-size: 12px;
-}
-.subscribe__mail .grid-item .subscribe__content input {
-  width: 75%;
-  padding: 10px;
-  border-radius: 50px;
-  font-size: 12px;
-  margin-bottom: 50px;
-}
-.subscribe__mail .grid-item .subscribe__content button {
-  width: -moz-max-content;
-  width: max-content;
-  font-size: 12px;
-  padding: 10px;
-}
-.subscribe__mail .grid-item .subscribe__content .content__img {
-  width: 40%;
-  right: 10px;
-}
-
-.footer__links {
-  margin-block: 50px;
-}
-.footer__links .grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-}
-.footer__links .grid-container .grid-item {
-  font-size: 22px;
-}
-.footer__links .grid-container .grid-item h4 {
-  font-size: 18px;
-}
-.footer__links .grid-container .grid-item ul {
-  line-height: 20px;
-}
-.footer__links .grid-container .grid-item ul li a {
-  font-size: 12px;
-  font-weight: 500;
-}
-.footer__links .logo {
-  grid-column: 1/span 2;
-  line-height: 22px;
-}
-.footer__links .logo i {
-  font-size: 14px;
-}
-.footer__links .logo p {
-  font-size: 12px;
-}
-.footer__links .logo a p {
-  font-size: 10px;
-}
-.footer__links .app {
-  grid-column: 1/span 2;
-  text-align: center;
-  line-height: 16px;
-}
-.footer__links .app p {
-  font-size: 12px;
-}
-.footer__links .app .store a img {
-  height: 20px;
-  width: 75px;
-}
-.footer__links .app span {
-  font-size: 12px;
-}
-
-.footer__numbers {
-  padding-block: 10px;
-}
-.footer__numbers .numbers__content {
-  display: block;
-  text-align: center;
-  line-height: 25px;
-}
-.footer__numbers .numbers__content .footer__text {
-  font-size: 12px;
-  line-height: 15px;
-}
-.footer__numbers .numbers__content .footer__number {
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  margin-block: 10px;
-}
-.footer__numbers .numbers__content .footer__number .num {
-  gap: 5px;
-}
-.footer__numbers .numbers__content .footer__number .num i {
-  font-size: 12px;
-}
-.footer__numbers .numbers__content .footer__number .num p {
-  font-size: 8px;
-  line-height: 10px;
-}
-.footer__numbers .numbers__content .footer__number .num p span {
-  font-size: 12px;
-  font-weight: 600;
-}
-.footer__numbers .numbers__content .footer__follow {
-  font-size: 12px;
-  line-height: 5px;
-}
-.footer__numbers .numbers__content .footer__follow p i {
-  font-size: 12px;
-  margin-inline: 2px;
-}
-.footer__numbers .numbers__content .footer__follow span {
-  font-size: 10px;
-}
-
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .nav__bottom {
     background-color: #3bb77e;

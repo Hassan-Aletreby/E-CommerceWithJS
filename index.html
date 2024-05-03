@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="sass/style.css" />
-    <link rel="stylesheet" href="sass/media.css">
+    <link rel="stylesheet" href="./sass/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +18,15 @@
     />
   </head>
   <body>
+    <div class="toggle">
+      <input type="checkbox" id="toggleBtn">
+      <label for="toggleBtn">
+        <span class="toggle-icon">
+          <i class="fa-regular fa-sun"></i>
+          <i class="fa-regular fa-moon"></i>
+        </span>
+      </label>
+    </div>
     <div class="nav nav__top">
       <div class="container">
         <div class="nav__content">
