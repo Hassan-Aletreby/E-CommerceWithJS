@@ -26,21 +26,21 @@ body .toggle {
   box-shadow: -15px 20px 50px -5px rgba(44, 44, 44, 0.2);
 }
 body .toggle .fa-sun {
-  font-size: 24px;
+  font-size: 22px;
   color: rgb(205, 205, 52);
   position: absolute;
   top: 2.5px;
   left: 7px;
   cursor: pointer;
+  opacity: 0;
 }
 body .toggle .fa-moon {
-  font-size: 24px;
+  font-size: 22px;
   color: rgb(79, 79, 79);
   position: absolute;
   top: 2.5px;
   left: 7px;
   cursor: pointer;
-  opacity: 0;
 }
 body .toggle input {
   width: 50px;
@@ -51,18 +51,21 @@ body .toggle input {
   outline: none;
 }
 body .toggle input:checked + label .fa-moon {
-  opacity: 1;
-  transition: all 0.3s ease-in-out;
-}
-body .toggle input:checked + label .fa-sun {
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
-body .toggle input:checked + label .fa-regular {
-  transform: translateX(25px) rotate(360deg);
+body .toggle input:checked + label .fa-sun {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
 }
 body .toggle input:not(:checked) + label .fa-regular {
-  transform: translateX(0px) rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+body .toggle input:checked + label .fa-regular {
+  transform: translateX(25px) rotate(180deg);
+}
+body .toggle input:not(:checked) + label .fa-regular {
+  transform: translateX(0px) rotate(0deg);
 }
 
 * {
