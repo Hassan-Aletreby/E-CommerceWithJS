@@ -19,7 +19,7 @@
     justify-content: space-between;
     padding: 10px 0;
   }
-  .nav__middle .middle__content .nav__btn .btn__menu {
+  .nav__middle .middle__content .nav__btn .nav__btn0 {
     display: flex;
   }
   .nav__middle .middle__content .logo a {
@@ -41,8 +41,10 @@
   }
   .nav__middle .middle__content .search {
     display: none;
-    width: 40%;
-    margin-inline: 10px;
+    position: absolute;
+    top: 60px;
+    width: 80%;
+    left: 10%;
   }
   .nav__middle .middle__content .search .search__box {
     padding: 14px;

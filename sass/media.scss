@@ -18,7 +18,7 @@
       justify-content: space-between;
       padding: 10px 0;
       .nav__btn {
-        & .btn__menu {
+        & .nav__btn0 {
           display: flex;
         }
       }
@@ -41,8 +41,10 @@
       }
       & .search {
         display: none;
-        width: 40%;
-        margin-inline: 10px;
+        position: absolute;
+        top: 60px;
+        width: 80%;
+        left: 10%;
         & .search__box {
           padding: 14px;
           font-size: 12px;
